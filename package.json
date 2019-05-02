@@ -1,0 +1,23 @@
+{
+  "name": "sample-react-project",
+  "version": "1.0.0",
+  "description": "A Sample React Project to demonstrate how to set up a development environment for React.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
