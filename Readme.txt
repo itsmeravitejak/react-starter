@@ -1,4 +1,7 @@
-Run 
+development server command
 npm install
-npm start
+npm run start
+build server command 
+npm install
+npm run build
 goto http://localhost:8080

@@ -4,7 +4,8 @@
   "description": "A Sample React Project to demonstrate how to set up a development environment for React.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server index.js"
+    "start": "webpack-dev-server index.js",
+    "build":"webpack --mode=production  --config ./webpack.prod.config.js"
   },
   "author": "",
   "license": "MIT",
