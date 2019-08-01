@@ -11,7 +11,6 @@ const config = {
    publicPath: '/dist/'
 
  },
- mode:'production',
   module: {
     rules: [
       {
