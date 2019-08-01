@@ -10,7 +10,8 @@ const config = {
    path: path.resolve(__dirname, "dist"),
    publicPath: '/dist/'
 
- }
+ },
+ mode:'production',
   module: {
     rules: [
       {
